@@ -44,7 +44,7 @@ from math import sqrt
 # d = sqrt(s ** 2 - 4 * p)
 # x = ((s - d)/ 2)
 # y = ((s + d)/ 2)
-# print(x, y)
+# print(int(x), int(y))
 
 
 
@@ -56,6 +56,6 @@ from math import sqrt
 n = int(input('Введите число: '))
 i = 1
 
-while i <= n:
+while i < n:
     print(i)
-    i = i * 2
+    i *= 2
